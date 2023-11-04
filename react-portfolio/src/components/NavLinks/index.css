@@ -1,0 +1,38 @@
+.navLinks ul li, .navLinks ul li a {
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+.navLinks ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* style for logout */
+.navLinks ul li p {
+    display: inline;
+    margin-right: 0;
+}
+.navLinks ul li p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* mobile styles */
+@media screen and (max-width: 540px) {
+    .navLinks ul {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+    }
+
+    .navLinks ul li {
+        list-style-type: none;
+        display: block;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+}

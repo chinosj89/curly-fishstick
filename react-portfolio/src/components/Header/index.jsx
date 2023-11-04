@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-//import MobileNav from "../MobileNav";
-//import Navigation from "../Navigation";
+import MobileNav from "../MobileNav";
+import Navigation from "../Navigation";
 import './index.css'
 import logo from '../../assets/logo.png'
 function Header() {
@@ -10,8 +10,8 @@ function Header() {
                 < img src={logo} className="Logo" alt="Logo" />
             </NavLink>
 
-            {/*<Navigation />
-            <MobileNav />*/}
+            <Navigation />
+            <MobileNav />
         </header>
     )
 }

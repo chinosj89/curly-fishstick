@@ -1,0 +1,34 @@
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav ul {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.mobile-nav ul li,
+.mobile-nav ul li a,
+.mobile-nav ul li p {
+    padding: 10px;
+    color: black;
+}
+
+
+.mobile-nav .hamburger {
+    position: absolute;
+    top: 17px;
+    right: 5%;
+}
+
+.mobile-nav .hamburger:hover {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .mobile-nav {
+        display: block;
+    }
+}

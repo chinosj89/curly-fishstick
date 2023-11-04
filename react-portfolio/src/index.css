@@ -1,0 +1,13 @@
+:root {
+    background-color: #dbe2ef;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #dbe2ef;
+}

@@ -4,7 +4,7 @@ import ProjectPage from './pages/projectsPage'
 import ContactPage from './pages/contactPage'
 import ResumePage from './pages/resumePage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path='/resume' element={<ResumePage />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }
