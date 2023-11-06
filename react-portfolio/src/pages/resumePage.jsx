@@ -48,7 +48,7 @@ function ResumePage() {
                     </div>
 
                     <div className="text-center">
-                        <a className="btn btn-xl btn-outline-dark" href="">
+                        <a className="btn btn-xl btn-outline-dark" href="https://docs.google.com/document/d/1f7aHduY6bUGiSct2e7_Tnc33RURU97Lm/edit?usp=sharing&ouid=101020273577263352069&rtpof=true&sd=true">
                             <i className="fas fa-download"></i>
                             Download My Resume!
                         </a>

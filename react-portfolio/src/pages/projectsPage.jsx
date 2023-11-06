@@ -3,10 +3,14 @@ import Project from "../components/Project/Project"
 import moviePicture from "../assets/2ndProject.png"
 import bookPicture from "../assets/BookReview.png"
 import techPicture from "../assets/techBlog.png"
+import weatherPicture from "../assets/weatherApp.png"
+import notePicture from "../assets/noteTaker.png"
+import workDayPicture from "../assets/workdayApp.png"
+import background from "../assets/resume.png"
 function ProjectPage() {
     return (
         <>
-            <div className="page-section portfolio" id="portfolio">
+            <div style={{ backgroundImage: `url(${background})`, backgroundSize: "cover" }} className="page-section portfolio " id="portfolio">
 
                 <h2 className="page-section-heading text-center text-uppercase text-secondary mb-5">My Portfolio</h2>
 
@@ -37,31 +41,33 @@ function ProjectPage() {
                         deployedSite="https://lit-castle-15830-1deec82cb2c6.herokuapp.com/"
                         image={techPicture}
                     />
-                    {/*
+
                     <Project
-                        id="1"
-                        name=""
-                        description=""
-                        github=""
-                        deployedSite=""
-                        image={ }
+                        id="4"
+                        name="Weather App"
+                        description="Created a weather app that shows a 5 day weather forecast using an API"
+                        github="https://github.com/chinosj89/weathering-with-you"
+                        deployedSite="https://chinosj89.github.io/weathering-with-you/"
+                        image={weatherPicture}
                     />
+
                     <Project
-                        id="1"
-                        name=""
-                        description=""
-                        github=""
-                        deployedSite=""
-                        image={ }
+                        id="5"
+                        name="Note Taker"
+                        description="This challenge was for us to create an application called Note Taker that we can use to write and save notes using Express.js"
+                        github="https://github.com/chinosj89/fantastic-spork"
+                        deployedSite="https://fierce-river-52368-f7b57518909a.herokuapp.com/"
+                        image={notePicture}
                     />
+
                     <Project
-                        id="1"
-                        name=""
-                        description=""
-                        github=""
-                        deployedSite=""
-                        image={ }
-    /> */}
+                        id="6"
+                        name="Work Day Scheduler"
+                        description="As a student, we are to create a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm)."
+                        github="https://github.com/chinosj89/fluffy-work-day"
+                        deployedSite="https://chinosj89.github.io/fluffy-work-day/"
+                        image={workDayPicture}
+                    />
 
 
                 </div>
