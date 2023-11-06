@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-
+import background from "../assets/homeBack.png"
 function Contact() {
     const {
         register,
@@ -45,17 +45,17 @@ function Contact() {
     };
 
     return (
-        <section className="page-section" id="contact">
+        <section style={{ backgroundImage: `url(${background})`, backgroundSize: "cover " }} className="page-section" id="contact">
             <div className="container">
-                <h2 className=" text-center text-uppercase text-secondary mb-5">Contact Me!</h2>
+                <h2 className=" text-center text-uppercase text-secondary p-5">Contact Me!</h2>
 
-                <div className="row justify-content-center m-5">
+                <div className="row justify-content-center ">
                     <div className="col-lg-8 col-xl-7">
 
                         <form id="contactForm" onSubmit={handleSubmit(onSubmit)} noValidate>
                             <div className="form-floating mb-3">
                                 <input
-                                    className="form-control"
+                                    className="form-control rounded"
                                     id="name"
                                     type="text"
                                     placeholder="Enter your name..."
@@ -74,7 +74,7 @@ function Contact() {
 
                             <div className="form-floating mb-3">
                                 <input
-                                    className="form-control"
+                                    className="form-control rounded"
                                     id="email"
                                     type="email"
                                     placeholder="name@example.com"
@@ -90,9 +90,9 @@ function Contact() {
                                 <label htmlFor="email">Email address</label>
                             </div>
 
-                            <div className="form-floating mb-3">
+                            <div className="form-floating mb-3 rounded">
                                 <textarea
-                                    className="form-control"
+                                    className="form-control rounded"
                                     id="message"
                                     type="text"
                                     placeholder="Enter your message here..."
@@ -107,7 +107,7 @@ function Contact() {
                             </div>
 
                             <button
-                                className="btn btn-primary btn-xl"
+                                className="btn btn-primary btn-xl mb-5"
                                 id="submitButton"
                                 type="submit"
                             >

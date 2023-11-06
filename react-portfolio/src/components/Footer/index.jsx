@@ -44,6 +44,7 @@ function Footer() {
                     </div>
                 </div>
                 <p>Made with React and Vite</p>
+                <p>Images taken from Unsplash</p>
             </div>
         </footer>
     );
