@@ -6,7 +6,9 @@
  
   ## Description
   This challenge is for us to create our portfolio using React and Vite
-  <!-- Add a screenshot of your application here -->
+
+  ## Deployed Site 
+  https://admirable-faloodeh-253a20.netlify.app/
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
