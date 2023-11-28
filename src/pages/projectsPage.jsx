@@ -62,10 +62,10 @@ function ProjectPage() {
 
                     <Project
                         id="6"
-                        name="Work Day Scheduler"
-                        description="As a student, we are to create a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm)."
-                        github="https://github.com/chinosj89/fluffy-work-day"
-                        deployedSite="https://chinosj89.github.io/fluffy-work-day/"
+                        name="Fitness Tracker"
+                        description="As a user, I want to be able to track my fitness journey every single day"
+                        github="https://github.com/danielfama14/get-fit"
+                        deployedSite="https://get-fit-project-2dc6ca113c41.herokuapp.com/"
                         image={workDayPicture}
                     />
 
