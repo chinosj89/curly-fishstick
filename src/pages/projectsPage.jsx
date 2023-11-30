@@ -5,7 +5,7 @@ import bookPicture from "../assets/BookReview.png"
 import techPicture from "../assets/techBlog.png"
 import weatherPicture from "../assets/weatherApp.png"
 import notePicture from "../assets/noteTaker.png"
-import workDayPicture from "../assets/workdayApp.png"
+import getFitPicture from "../assets/getFit.png"
 import background from "../assets/resume.png"
 function ProjectPage() {
     return (
@@ -66,7 +66,7 @@ function ProjectPage() {
                         description="As a user, I want to be able to track my fitness journey every single day"
                         github="https://github.com/danielfama14/get-fit"
                         deployedSite="https://get-fit-project-2dc6ca113c41.herokuapp.com/"
-                        image={workDayPicture}
+                        image={getFitPicture}
                     />
 
 
