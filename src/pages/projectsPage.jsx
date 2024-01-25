@@ -1,4 +1,4 @@
-import React from "react";
+
 import Project from "../components/Project/Project"
 import moviePicture from "../assets/2ndProject.png"
 import bookPicture from "../assets/BookReview.png"
