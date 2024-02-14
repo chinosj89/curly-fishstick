@@ -1,12 +1,12 @@
 
 import Project from "../components/Project/Project"
 import moviePicture from "../assets/2ndProject.png"
-import bookPicture from "../assets/BookReview.png"
 import techPicture from "../assets/techBlog.png"
 import weatherPicture from "../assets/weatherApp.png"
 import notePicture from "../assets/noteTaker.png"
 import getFitPicture from "../assets/getFit.png"
 import background from "../assets/resume.png"
+import nextjs from "../assets/nextjs.png"
 function ProjectPage() {
     return (
         <>
@@ -23,15 +23,15 @@ function ProjectPage() {
                         deployedSite="https://matthkang.github.io/Movie-Finder/index.html"
                         image={moviePicture}
                     />
-
                     <Project
                         id="2"
-                        name="Book Review App"
-                        description="Created a Book Review APP using the MVC format and an API to find books and create reviews for them"
-                        github="https://github.com/MikeWentForth/Book-Review"
-                        deployedSite="/"
-                        image={bookPicture}
+                        name="Fitness Tracker"
+                        description="As a user, I want to be able to track my fitness journey every single day"
+                        github="https://github.com/danielfama14/get-fit"
+                        deployedSite="https://get-fit-project-2dc6ca113c41.herokuapp.com/"
+                        image={getFitPicture}
                     />
+
 
                     <Project
                         id="3"
@@ -62,11 +62,11 @@ function ProjectPage() {
 
                     <Project
                         id="6"
-                        name="Fitness Tracker"
-                        description="As a user, I want to be able to track my fitness journey every single day"
-                        github="https://github.com/danielfama14/get-fit"
-                        deployedSite="https://get-fit-project-2dc6ca113c41.herokuapp.com/"
-                        image={getFitPicture}
+                        name="Nextjs Project"
+                        description="Created a Nextjs project to learn nextjs and email verifications"
+                        github="https://github.com/chinosj89/nextjs-auth"
+                        deployedSite="https://nextjs-auth-ten.vercel.app"
+                        image={nextjs}
                     />
 
 
